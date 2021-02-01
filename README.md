@@ -32,10 +32,19 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 
 - React Native Deugger Open: Automatically open the React Native Debugger instead of Chrome.
 
+- `yarn bundle` and `yarn pods` commands: Ensures that the Cocoapods version never changes in Podfile.lock
+
+- ENV Support using `react-native-dotenv`.
+  - Typescript support in `typings/env.d.ts`
+
 ## Setup for Your Project
 
-1. Clone and Setup: run `yarn install` then `yarn pods`
+1. Install Node Dependencies using `yarn install`
 
-2. Update Dependencies: Run `yarn outdated` to and upgrade any outdated packages
+2. Install iOS dependencies using `yarn bundle` then `yarn pods`
 
-3. Rename the app: Use `npx react-native-rename <newName> -b <bundleIdentifier>`
+3. Update Dependencies: Run `yarn outdated` to and upgrade any outdated packages
+
+4. Rename the app: Use `npx react-native-rename <newName> -b <bundleIdentifier>`
+
+5. Update any enviorment variables in `.env` as well as update the types in `declarations.d.ts`

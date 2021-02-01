@@ -8,7 +8,9 @@
     "start": "react-native start",
     "format": "echo 'future format command'",
     "lint": "echo 'future lint command'",
-    "postinstall": "react-native-inhibit-warnings && rndebugger-open"
+    "postinstall": "react-native-inhibit-warnings && rndebugger-open",
+    "bundle": "BUNDLE_GEMFILE=ios/Gemfile bundle install",
+    "pods": "cd ios && BUNDLE_GEMFILE=Gemfile bundle exec pod install"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
@@ -17,6 +19,7 @@
     "@react-navigation/stack": "^5.14.2",
     "react": "16.13.1",
     "react-native": "0.63.4",
+    "react-native-dotenv": "^2.5.1",
     "react-native-gesture-handler": "^1.9.0",
     "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.1.9",
