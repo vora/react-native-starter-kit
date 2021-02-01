@@ -6,11 +6,12 @@
     "android": "react-native run-android --no-packager",
     "ios": "react-native run-ios --no-packager",
     "start": "react-native start",
-    "format": "echo 'future format command'",
-    "lint": "echo 'future lint command'",
-    "postinstall": "react-native-inhibit-warnings && rndebugger-open",
+    "format": "prettier --write ./src/**/*.{ts,tsx}",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "ci": "yarn tsc && yarn lint && yarn format",
     "bundle": "BUNDLE_GEMFILE=ios/Gemfile bundle install",
-    "pods": "cd ios && BUNDLE_GEMFILE=Gemfile bundle exec pod install"
+    "pods": "cd ios && BUNDLE_GEMFILE=Gemfile bundle exec pod install",
+    "postinstall": "react-native-inhibit-warnings && rndebugger-open"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",

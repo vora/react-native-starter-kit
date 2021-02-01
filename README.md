@@ -1,6 +1,6 @@
 # React Native Starter Kit
 
-## Pre-requsites
+## Prerequisites
 
 This project requires NodeJS and Yarn to be installed. If you prefer to use another package manager such as `npm` or `pnpm`, delete `yarn.lock` and run the install command for your preferred package manager.
 
