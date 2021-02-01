@@ -18,7 +18,9 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 
 - Typescript, ESLint and Prettier
 
-- Babel Plugin Module Resolver: Allows you to import module like `import Component from '~/components/common/Component'`
+- Babel Plugin Module Resolver: Allows you to import module like:
+
+  - `import Component from '~/components/common/Component'`
 
 - React Navigation: Setup with a stack navigator. Configure in `src/Navigator.tsx`
 
