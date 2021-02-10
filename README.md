@@ -51,4 +51,4 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 
 4. Rename the app: Use `npx react-native-rename <newName> -b <bundleIdentifier>`
 
-5. Update any enviorment variables in `.env` as well as update the types in `declarations.d.ts`
+5. Update any enviorment variables in `.env` as well as corresponding types in `typings/env.d.ts`
