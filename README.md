@@ -13,6 +13,7 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 - `yarn lint` - Run eslint
 - `yarn ci` - run tsc, prettier and eslint.
 - `yarn pods` - Install Cocoapods
+- `yarn clean-project` - Run clean script
 
 ## Whats Included
 
@@ -35,7 +36,10 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 - `yarn bundle` and `yarn pods` commands: Ensures that the Cocoapods version never changes in Podfile.lock
 
 - ENV Support using `react-native-dotenv`.
+
   - Typescript support in `typings/env.d.ts`
+
+- Clean script to remove all cache from project.
 
 ## Setup for Your Project
 

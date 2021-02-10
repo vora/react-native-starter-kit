@@ -11,6 +11,7 @@
     "ci": "yarn tsc && yarn lint && yarn format",
     "bundle": "BUNDLE_GEMFILE=ios/Gemfile bundle install",
     "pods": "cd ios && BUNDLE_GEMFILE=Gemfile bundle exec pod install",
+    "clean-project": "./scripts/clean.sh",
     "postinstall": "react-native-inhibit-warnings && rndebugger-open"
   },
   "dependencies": {
