@@ -18,28 +18,14 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 ## Whats Included
 
 - Typescript, ESLint and Prettier
-
-- Babel Plugin Module Resolver: Allows you to import module like:
-
-  - `import Component from '~/components/common/Component'`
-
-- React Navigation: Setup with a stack navigator. Configure in `src/Navigator.tsx`
-
-- Redux, Redux Persist and Redux Devtools: Configure in `src/store/store.ts`
-
-- Axios with Request Interceptors: Configure in `src/requests/helpers/setup.ts`
-
-- Inhibit Warnings: Suppress useless Xcode warnings when running `yarn ios`
-
-- React Native Deugger Open: Automatically open the React Native Debugger instead of Chrome.
-
-- `yarn bundle` and `yarn pods` commands: Ensures that the Cocoapods version never changes in Podfile.lock
-
-- ENV Support using `react-native-dotenv`.
-
-  - Typescript support in `typings/env.d.ts`
-
-- Clean script to remove all cache from project.
+- SVG Support
+- Babel Plugin Module Resolver
+- React Navigation
+- Redux, Redux Persist + Devtools
+- Axios with interceptors setup
+- Postinstall Scripts: Suppress Xcode warnings and make "React Native Debugger" the default debugger
+- Package script commands for managing cocoapods (`yarn bundle` and `yarn pods`)
+- ENV support with `react-native-dotenv`
 
 ## Setup for Your Project
 
@@ -53,7 +39,6 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 
 5. Update any enviorment variables in `.env` as well as corresponding types in `typings/env.d.ts`
 
-
 ## Disabling postinstall tasks
 
 By default, during the "postinstall", we do two things:
@@ -62,4 +47,3 @@ By default, during the "postinstall", we do two things:
 2. Suppress useless Xcode warnings during the build step
 
 To disable this, remove the "postinstall" line from package.json
-
