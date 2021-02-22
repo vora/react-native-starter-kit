@@ -19,6 +19,7 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 
 - Typescript, ESLint and Prettier
 - SVG Support
+- Basic Github Workflow Template
 - Babel Plugin Module Resolver
 - React Navigation
 - Redux, Redux Persist + Devtools
