@@ -52,3 +52,14 @@ This project requires NodeJS and Yarn to be installed. If you prefer to use anot
 4. Rename the app: Use `npx react-native-rename <newName> -b <bundleIdentifier>`
 
 5. Update any enviorment variables in `.env` as well as corresponding types in `typings/env.d.ts`
+
+
+## Disabling postinstall tasks
+
+By default, during the "postinstall", we do two things:
+
+1. Make the React Native Debugger the default app that opens when toggle debugging
+2. Suppress useless Xcode warnings during the build step
+
+To disable this, remove the "postinstall" line from package.json
+
