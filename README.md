@@ -1,5 +1,9 @@
 # React Native Starter Kit
 
+!! PLEASE DO NOT USE THIS TEMPLATE !!
+
+This template is out of date by several react native versions. Until this template is updated to the latest version, please create new projects with `npx react-native init ProjectName` and only use this project for refrence purposes.
+
 ## Prerequisites
 
 This project requires NodeJS and Yarn to be installed. If you prefer to use another package manager such as `npm` or `pnpm`, delete `yarn.lock` and run the install command for your preferred package manager.
