@@ -2,7 +2,11 @@
 
 !! PLEASE DO NOT USE THIS TEMPLATE !!
 
-This template is out of date by several react native versions. Until this template is updated to the latest version, please create new projects with `npx react-native init ProjectName` and only use this project for refrence purposes.
+This template is out of date. Please use [our new template](https://github.com/vora/react-native-template) instead.
+
+```bash
+npx react-native init MyApp --template https://github.com/vora/react-native-template.git
+```
 
 ## Prerequisites
 
